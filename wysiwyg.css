@@ -1,0 +1,74 @@
+/* light blue color for odd numbered objects: abf0f9;
+light yellow color for even numbered objects: f4ffb1;
+*/
+
+body {
+	font-family: 'Slabo 27px', sans-serif;
+}
+
+
+#topText {
+	width: 200px;
+	height: 200px;
+	font-size: 2em;
+	font-family: 'Slabo 27px', sans-serif;
+	display: block;
+	margin: 20px auto;
+}
+
+#container article {
+	display: block;
+	width: 60%;
+	margin: 0 auto;
+}
+
+.famous {
+	border: .5px solid white;
+}
+
+.famous h2 {
+	text-align: center;
+}
+
+
+#container article:nth-child(odd) {
+	background: #abf0f9;
+}
+
+
+#container article:nth-child(even) {
+	background: #f4ffb1;
+}
+
+.clickBorder {
+	border: 3px dotted red;
+}
+
+.bioImg {
+
+}
+
+.bioImg p {
+	text-align: center;
+	padding: 0 200px;
+	line-height: 1.4;
+}
+
+.bioImg img {
+	display: block;
+	height: 200px;
+	width: 300px;
+	margin: 0 auto;
+	
+}
+
+.lifespan {
+	text-align: center;
+}
+
+.lifespan h3 {
+	font-weight: bolder;
+}
+
+
+
